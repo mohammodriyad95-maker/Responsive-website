@@ -55,7 +55,7 @@ nav ul li a:hover, nav ul li a.active{
 }
 
 
-/*responsive work start*/
+/*responsive work start nav*/
 
 @media only screen and (max-width: 940px){
   .menu-btn{
@@ -96,9 +96,12 @@ nav ul li a:hover, nav ul li a.active{
     color: red;
     padding: 40px 0px;
   }
-  
-  
 }
+
+/*responsive work finished nav*/
+
+
+
 
    /* header section code start*/
    
@@ -163,6 +166,8 @@ nav ul li a:hover, nav ul li a.active{
    
    
    
+   
+   
            /*hero area  section code start*/
    
    .hero-area-section{
@@ -218,6 +223,9 @@ nav ul li a:hover, nav ul li a.active{
   margin-bottom: 50px;
 }
    
+   
+   
+   
            /*About section code start*/
    
    
@@ -244,6 +252,7 @@ nav ul li a:hover, nav ul li a.active{
    }
    .more-about-vanilla ul{
      margin: 20px 0px;
+     list-style-position: inside;
    }
    .more-about-vanilla a{
      text-decoration: none;
@@ -273,6 +282,9 @@ nav ul li a:hover, nav ul li a.active{
      font-size: 20px;
      padding: 10px 0px 30px 0px;
    }
+   
+   
+   
    
    
    
@@ -338,6 +350,9 @@ nav ul li a:hover, nav ul li a.active{
    .single-advice a:hover{
      background-color: wheat;
    }
+   
+   
+   
    
    
         /*contact section code start*/
@@ -407,6 +422,9 @@ nav ul li a:hover, nav ul li a.active{
   } 
    
    
+   
+   
+   
            /*match section code start*/
    
    .match-section{
@@ -448,6 +466,9 @@ nav ul li a:hover, nav ul li a.active{
    }
    
    
+   
+   
+   
               /*take care section code start*/
               
    
@@ -479,7 +500,11 @@ nav ul li a:hover, nav ul li a.active{
    }
    
    
-                 /*footersection code start*/
+   
+   
+   
+   
+                 /*footer section code start*/
                  
   footer{
    background-color: #180301;
@@ -525,18 +550,27 @@ nav ul li a:hover, nav ul li a.active{
    
    
    
-   /*responsive service section code start*/
+   
+
+
+
+
+
+   
+   /* all responsive code start*/
    
    @media only screen and (max-width: 688px){
         /*service section code start*/
+        
     .service-parent{
      display: grid;
      grid-template-columns: repeat(1, 1fr);
      width: 100%;
      grid-gap: 10px;
    }
-   
       /*service section code finished*/
+      
+      
       
          /*hero area  section code start*/
    
@@ -546,6 +580,8 @@ nav ul li a:hover, nav ul li a.active{
      margin-right: 30px;
    }
       /*hero area section code finished*/
+      
+      
       
             /*about section code start*/
      .about-parent{
@@ -559,6 +595,10 @@ nav ul li a:hover, nav ul li a.active{
      grid-gap: 15px;
      margin-top: 50px;
    }
+   
+            /*about section code start*/
+   
+   
    
     /*advice section code start*/
     
@@ -579,6 +619,8 @@ nav ul li a:hover, nav ul li a.active{
     
      /*advice section code finished*/
    
+   
+   
        /*contact section code start*/
      .contact-form{
      width: 90%;
@@ -586,11 +628,11 @@ nav ul li a:hover, nav ul li a.active{
      background-color: #0D1350;
      
    }
-    
-    
-          /*contact section code finished*/
+         /*contact section code finished*/
           
-                    /*match section code start*/
+          
+          
+              /*match section code start*/
     .match-parent{
      display: grid;
      grid-template-columns: repeat(1, 1fr);
@@ -601,7 +643,12 @@ nav ul li a:hover, nav ul li a.active{
    .single-match{
      text-align: center;
    }
-                        /* finished projects section works*/
+               /* finished projects section works*/
+                        
+                        
+                        
+                        
+                        
                         
                   /*take care section code start*/
               
@@ -615,6 +662,9 @@ nav ul li a:hover, nav ul li a.active{
      margin-bottom: 70px;
    }
                  /*take care section code finished */
+                 
+                 
+                 
                  
                  /*footersection code start*/    
   
@@ -642,6 +692,7 @@ nav ul li a:hover, nav ul li a.active{
    
    @media only screen and (min-width: 689px) and (max-width: 1099px){
              /*service section code start*/
+             
      .service-parent{
      display: grid;
      grid-template-columns: repeat(2, 1fr);
@@ -649,6 +700,8 @@ nav ul li a:hover, nav ul li a.active{
      grid-gap: 20px;
    }
          /*service section code finished*/
+         
+         
          
                   /*hero area  section code start*/
          
@@ -658,6 +711,8 @@ nav ul li a:hover, nav ul li a.active{
      margin-right: 70px;
    }
          /*hero area section code finished*/
+         
+         
          
                   /*about  section code start*/
      .about-parent{
@@ -673,6 +728,8 @@ nav ul li a:hover, nav ul li a.active{
    }
    
       /*about  section code finished*/
+   
+   
    
        /*advice section code start*/
     
@@ -691,6 +748,7 @@ nav ul li a:hover, nav ul li a.active{
      /*advice section code finished*/
      
      
+     
             /*contact section code start*/
      .contact-form{
      width: 90%;
@@ -699,6 +757,8 @@ nav ul li a:hover, nav ul li a.active{
      
    }
           /*contact section code finished*/
+   
+   
    
                        /*match section code start*/
     .match-parent{
@@ -713,6 +773,9 @@ nav ul li a:hover, nav ul li a.active{
    }
                     /* finished projects section works */       
           
+          
+          
+          
                      /*take care section code start*/
               
    
@@ -725,6 +788,8 @@ nav ul li a:hover, nav ul li a.active{
      margin-bottom: 70px;
    }
                  /*take care section code finished */
+                 
+                 
                  
                           /*footer section code start*/    
   
