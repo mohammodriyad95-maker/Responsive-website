@@ -116,7 +116,7 @@ nav ul li a:hover, nav ul li a.active{
    
    
   
-   .first-section{
+   .service-section{
      background-color: #180301;
      
    }
@@ -158,6 +158,7 @@ nav ul li a:hover, nav ul li a.active{
    }
    .single-service > p{
      font-weight: bold;
+    
    }
    
    
@@ -181,11 +182,14 @@ nav ul li a:hover, nav ul li a.active{
      display: flex;
      justify-content: space-between;
      align-items: center;
-     margin-left: 150px;
-     margin-right: 150px;
+     margin-left: 100px;
+     margin-right: 100px;
    }
    .hero-area-text{
      color: white;
+   }
+   .hero-area-text p{
+     text-align: justify;
    }
   .hero-area-text h2{
     margin: 20px 0px;
@@ -222,15 +226,15 @@ nav ul li a:hover, nav ul li a.active{
      background-repeat: no-repeat;
      background-position: center center;
      background-size: cover;
-     padding: 200px 0px;
+     padding: 350px 0px;
    }
    
    .about-parent{
      display: flex;
-     margin-left: 180px;
-     margin-right: 180px;
+     margin-left: 50px;
+     margin-right: 50px;
      justify-content: space-between;
-     gap: 30px;
+     gap: 20px;
      color: white;
    }
    
@@ -243,7 +247,7 @@ nav ul li a:hover, nav ul li a.active{
    }
    .more-about-vanilla a{
      text-decoration: none;
-     font-size: 19px;
+     font-size: 22px;
      background-color: yellow;
      padding: 10px 30px;
      border-radius: 10px;
@@ -260,21 +264,264 @@ nav ul li a:hover, nav ul li a.active{
    .about-single-items{
      background-color: white;
      color: black;
-     padding: 20px 60px;
+     padding: 10px 50px;
      border-radius: 5px;
      text-align: center;
      border: 2px solid limegreen;
    }
    .about-single-items h4{
      font-size: 20px;
-     padding: 10px 0px 20px 0px;
+     padding: 10px 0px 30px 0px;
    }
    
    
    
+                 /*advice section code start*/
+                 
+                 
+   .advice-section{
+     background-color: #180301;
+     padding: 250px 0px;
+     color: white;
+   }
+   
+   
+   .advice-parent{
+     display: flex;
+     justify-content: space-between;
+     margin: 0px 40px 0px 40px;
+     gap: 50px;
+     
+   }
+   .single-advice p{
+     margin: 30px 0px;
+     line-height: 1.5;
+     text-align: justify;
+   }
+  .single-advice h2{
+    font-size: 35px;
+    border-bottom: 3px solid yellow;
+    padding-bottom: 25px;
+  }
+    .single-advice h3{
+      font-size: 35px;
+      margin-top: 20px;
+    }
+   .advice-img-box{
+     width: 700px;
+     max-width: 100%;
+    flex-shrink: 0;
+   }
+   .advice-img-box img{
+     width: 100%;
+     height: auto;
+     display: block;
+   }
+   .single-advice a{
+     text-decoration: none;
+     background-color: white;
+     color: #000;
+     padding: 20px 45px;
+     border-radius: 40px;
+     font-size: 25px;
+     display: inline-block;
+     margin-top: 20px;
+     transition: .5s;
+   }
+   .advice-icons{
+     text-align: center;
+   }
+   .advice-icons a{
+     margin: 0px 5px;
+     border: 1px solid black;
+   }
+   .single-advice a:hover{
+     background-color: wheat;
+   }
+   
+   
+        /*contact section code start*/
+        
+        
+        
+   .contact-section{
+     background-image: linear-gradient(#1F245B8A, #0E7C978C), url("contact-img.jpg");
+     padding: 100px 0px;
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     
+     
+     
+   }
+   .contact-form{
+     width: 60%;
+     margin: 0px auto;
+     padding: 50px 60px;
+     background-color: #0D1350;
+     border: 6px solid #4497D3;
+     border-radius: 10px;
+   }
+   .contact-form h2{
+     text-align: center;
+     font-size: 30px;
+     letter-spacing: .1em;
+     color: white;
+   }
+   .contact-form p{
+     text-align: center;
+     margin: 30px 0px;
+     color: white;
+     letter-spacing: .1em;
+   }
+   .form-input{
+     display: block;
+     width: 100%;
+     height: 40px;
+     margin: 50px 0px;
+     border: none;
+     background: none;
+     outline: none;
+     color: white;
+     border-bottom: 3px solid #4497D3;
+     font-size: 20px;
+   }
+   .form-input::placeholder{
+     color: #4497D3;
+     font-size: 20px;
+     font-weight: bold;
+   }
+   .submit-btn{
+     display: block;
+     margin: 0px auto;
+     padding: 5px 40px;
+     font-size: 20px;
+     background: none;
+     color: white;
+     outline-style: ridge;
+     cursor: pointer;
+     transition: .5s;
+   }
+  .submit-btn:hover{
+    background-color: #000000BF;
+  } 
+   
+   
+           /*match section code start*/
+   
+   .match-section{
+     background-color:  #180301;
+     color: white;
+     padding: 100px 0px;
+   }
    
    
    
+   .match-parent{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     margin: 0px 150px 0px 150px;
+     grid-gap: 45px;
+     
+   }
+   .match-div-five{
+     border: 4px solid  #401E1C;
+     padding: 20px;
+   }
+   .match-div-five i{
+     font-size: 50px;
+     padding: 0px 20px 10px 20px;
+   }
+   .match-div-five h5{
+     margin-bottom: 10px;
+   }
+   .match-div-five p{
+     color: #585454;
+     font-size: 14px;
+   }
+   .match-div-five:nth-child(2){
+     border: 4px solid white;
+   }
+   .single-match{
+     line-height: 1.5;
+     letter-spacing: .1em;
+   }
+   
+   
+              /*take care section code start*/
+              
+   
+   .take-care-parent{
+     display: flex;
+     justify-content: space-between;
+     margin: 0px 150px 0px 150px;
+     align-items: center;
+     padding: 100px 0px;
+     gap: 30px;
+   }
+   .take-care-single-text h2{
+     font-size: 27px;
+   }
+  .take-care-single-text p{
+    margin: 20px 0px;
+    font-weight: bold;
+   }
+   .take-care-single-text ul li{
+     margin: 10px 0px;
+     font-weight: bold;
+     list-style-position: inside;
+   }
+   .take-care-img-div{
+     width: 100%;
+   }
+   .take-care-img-div img{
+     width: 100%;
+   }
+   
+   
+                 /*footersection code start*/
+                 
+  footer{
+   background-color: #180301;
+   padding: 150px 0px 100px 0px;
+  }
+  .footer-parent{
+    display: flex;
+    margin: 0px 150px 0px 150px;
+    gap: 80px;
+  }
+  .footer-single-div{
+    color: white;
+    width: 100%;
+    
+  }
+  .footer-single-div h5{
+    margin-bottom: 25px;
+    letter-spacing: 4px;
+  }
+  .single-footer-2 p{
+    margin: 15px;
+  }
+  .single-footer-2 a{
+    color: white;
+    text-decoration: none;
+  }
+  .single-footer-3 ul{
+    display: flex;
+  }
+  .single-footer-3 ul li{
+    list-style-type: none;
+    margin: 0px 5px;
+  }
+  .single-footer-3 ul li a{
+    color: white;
+    text-decoration: none;
+    background-color:  #3F0A05;
+    padding: 10px;
+  }
+  .footer-single-div h5 span{
+    color: yellow;
+  }
    
    
    
@@ -312,7 +559,86 @@ nav ul li a:hover, nav ul li a.active{
      grid-gap: 15px;
      margin-top: 50px;
    }
+   
+    /*advice section code start*/
+    
+    .advice-parent{
+     display: block;
+     margin: 0px 30px 0px 30px;
    }
+    .advice-icons{
+      text-align: left;
+    }
+     .advice-icons a{
+       margin: 10px 5px;
+     }
+     .single-advice h2{
+       margin-top: 50px;
+     }
+    
+    
+     /*advice section code finished*/
+   
+       /*contact section code start*/
+     .contact-form{
+     width: 90%;
+     padding: 20px 30px;
+     background-color: #0D1350;
+     
+   }
+    
+    
+          /*contact section code finished*/
+          
+                    /*match section code start*/
+    .match-parent{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     margin: 0px 30px 0px 30px;
+     grid-gap: 20px;
+     
+   }
+   .single-match{
+     text-align: center;
+   }
+                        /* finished projects section works*/
+                        
+                  /*take care section code start*/
+              
+   
+   .take-care-parent{
+     display: block;
+     margin: 0px 30px 0px 30px;
+     padding: 80px 0px;
+   }
+   .take-care-single-text{
+     margin-bottom: 70px;
+   }
+                 /*take care section code finished */
+                 
+                 /*footersection code start*/    
+  
+  .footer-parent{
+    display: block;
+    margin: 0px 30px 0px 30px;
+   }
+   .footer-single-div{
+     text-align: center;
+   }
+   .footer-single-div h5{
+     margin: 30px 0px;
+   }
+   .single-footer-3 ul{
+     display: flex;
+     justify-content: center;
+   }
+   
+                      /*footer section code finished t*/
+  }
+   
+   
+   
+   
    
    @media only screen and (min-width: 689px) and (max-width: 1099px){
              /*service section code start*/
@@ -345,4 +671,77 @@ nav ul li a:hover, nav ul li a.active{
      grid-gap: 15px;
      margin-top: 50px;
    }
+   
+      /*about  section code finished*/
+   
+       /*advice section code start*/
+    
+    .advice-parent{
+     display: block;
+     margin: 0px 70px 0px 70px;
    }
+     .advice-icons{
+      text-align: center;
+    }
+     .advice-icons a{
+       margin: 10px 5px;
+     }
+     
+    
+     /*advice section code finished*/
+     
+     
+            /*contact section code start*/
+     .contact-form{
+     width: 90%;
+     padding: 40px 50px;
+     background-color: #0D1350;
+     
+   }
+          /*contact section code finished*/
+   
+                       /*match section code start*/
+    .match-parent{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     margin: 0px 70px 0px 70px;
+     grid-gap: 30px;
+     
+   }
+   .single-match{
+     text-align: center;
+   }
+                    /* finished projects section works */       
+          
+                     /*take care section code start*/
+              
+   
+   .take-care-parent{
+     display: block;
+     margin: 0px 70px 0px 70px;
+     padding: 80px 0px;
+   }
+   .take-care-single-text{
+     margin-bottom: 70px;
+   }
+                 /*take care section code finished */
+                 
+                          /*footer section code start*/    
+  
+  .footer-parent{
+    display: block;
+    margin: 0px 70px 0px 70px;
+   }
+   .footer-single-div{
+     text-align: center;
+   }
+   .footer-single-div h5{
+     margin: 30px 0px;
+   }
+   .single-footer-3 ul{
+     display: flex;
+     justify-content: center;
+   }
+   
+                      /*footer section code finished t*/    
+  }
